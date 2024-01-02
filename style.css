@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px; /*temporary*/
+}
+/* <!-- section 1  --> */
+.container-1 {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    display:flex;
+    margin: 20px 200px 30px;
+    gap: 30px;
+}
+
+.header-logo {
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: brown;
+}
+.container-steakimg {
+    display: flex;
+    /* flex-direction: column; */
+    margin: 0 200px 50px;
+}
+
+.container-stkbtn {
+    /* border:1px white solid; */
+    width: 40%;
+    margin-right: auto; 
+}
+
+.steakhouse { 
+}
+
+.image {
+    height:400px; /*temporary*/
+    width: 800px; /*temporary*/
+    margin-left: auto;
+}
+
+.button-1 {
+    margin-top: 15px;
+    padding: 1em;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+/* <!-- section 2  --> */
+/* <!-- section 3  --> */
+/* <!-- section 4  --> */
+
+
