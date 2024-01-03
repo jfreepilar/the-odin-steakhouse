@@ -143,19 +143,20 @@ button:hover {
 
 .forbes {
     font-size: 20px;
+    font-weight: bold;
     text-align: end;
-    padding-right: 480px;
+    padding-right: 300px;
 }
 
 .star {
     font-size: 20px;
     text-align: end;
-    padding: 0 400px 50px;
+    padding: 0 300px 50px;
 }
                                                             /* <!-- section 4  --> */
 .container-act {
     border-radius: 8px;;
-    margin: 50px 300px;
+    margin: 50px 200px;
     padding: 50px;
     background-color: #3882f6;
     height: 15  0px;
@@ -175,15 +176,15 @@ button:hover {
 
 .container-btm {
     display: flex;
-    gap:95px
+    gap:400px
 }
 
 .button-2 {
     border: 2px white solid;
     border-radius: 10px;
-    margin-top:-15px;
-    width: 90px;
-    height:30px;
+    margin-top:-25px;
+    width: 140px;
+    height:50px;
     width: 90px;
     background-color: #3882f6;
     color: white;
