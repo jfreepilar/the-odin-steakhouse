@@ -4,10 +4,7 @@
     box-sizing: border-box;
 }
 
-html {
-    font-size: 20px; /*temporary*/
-}
-/* <!-- section 1  --> */
+                                                /* <!-- section 1  --> */
 .container-1 {
     background-color: #1f2937;
     color: white;
@@ -15,14 +12,29 @@ html {
     flex-direction: column;
 }
 
-.nav {
+.nav-1 {
     display:flex;
-    margin: 20px 200px 30px;
-    gap: 30px;
+    flex-wrap: wrap;
+    margin: 0 200px;
 }
 
-.header-logo {
-    margin-right: auto;
+.nav-2 {
+    display: flex;
+    margin-left: auto;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 20px;
+}
+
+.logo {
+    height: 250px;
+    margin-top: -70px;
+}
+
+.nav-2 {
+    margin-top: 20px;
+    gap: 20px;
+
 }
 
 a {
@@ -35,45 +47,161 @@ a:hover {
 }
 .container-steakimg {
     display: flex;
-    /* flex-direction: column; */
     margin: 0 200px 50px;
 }
 
 .container-stkbtn {
-    /* border:1px white solid; */
     width: 40%;
-    margin-right: auto; 
+    margin-right: auto;
 }
 
 .steakhouse { 
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-right: auto;
 }
 
 .image {
-    height:400px; /*temporary*/
-    width: 800px; /*temporary*/
+    height:400px; 
+    width: 800px;
     margin-left: auto;
 }
 
 .button-1 {
+    border: none;
     margin-top: 15px;
     padding: 1em;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: white;
 }
 
 button:hover {
     cursor: pointer;
 }
 
+                                                /* <!-- section 2  --> */
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: -150px; */
+}
 
+.picks {
+    margin: 35px;
+    text-align: center;
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+}
 
+.container-dish {
+    display: flex;
+    margin: 0 250px;
+}
 
+.dish {
+    height: 400px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px 10px;
+    gap: 10px;
+}
 
+.cheese {
+    width: 600px;
+}
 
+.p1 {
+    font-size: 20px;
+}
 
+.item {
+    border: 5px #6c6ccc solid;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
+                                                                /* <!-- section 3  --> */
+.container-3 {
+    background-color: #E5E7EB;
+    font-style:italic;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    min-width: fit-content;
+}
 
+.quote {
+    font-size: 25px;
+    padding: 50px 300px 10px;
+    text-align: center;
+    color: 1f2937;
+}
 
+.forbes {
+    font-size: 20px;
+    text-align: end;
+    padding-right: 400px;
+}
 
-/* <!-- section 2  --> */
-/* <!-- section 3  --> */
-/* <!-- section 4  --> */
+.star {
+    font-size: 20px;
+    text-align: end;
+    padding: 0 480px 50px;
+}
+                                                            /* <!-- section 4  --> */
+.container-act {
+    border-radius: 8px;;
+    margin: 50px 300px;
+    padding: 50px;
+    background-color: #3882f6;
+    height: 15  0px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.act-1 {
+    height: fit-content;
+    width: fit-content;
+    margin-left: 200px;
+    font-size: 20px;
+    justify-content: end;
+    font-weight: bolder;
+}
+
+.container-btm {
+    display: flex;
+    gap:95px
+}
+
+.button-2 {
+    border: 2px white solid;
+    border-radius: 10px;
+    margin-top:-15px;
+    width: 90px;
+    height:30px;
+    width: 90px;
+    background-color: #3882f6;
+    color: white;
+}
+
+.act-2 {
+    margin-left: 200px;
+    font-size: 18px;
+    height: fit-content;
+}
+/* footer */
+.footer {
+    height: 100px;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
