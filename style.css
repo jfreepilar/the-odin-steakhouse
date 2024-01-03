@@ -10,17 +10,20 @@
     color: white;
     display: flex;
     flex-direction: column;
+    min-width: fit-content;
 }
 
 .nav-1 {
     display:flex;
     flex-wrap: wrap;
-    margin: 0 200px;
+    margin:0 200px 0;
+    justify-content: center;
 }
 
 .nav-2 {
     display: flex;
-    margin-left: auto;
+    height: 50px;
+    padding-top: 15px;
     font-size: 18px;
     color: #E5E7EB;
     gap: 20px;
@@ -28,7 +31,7 @@
 
 .logo {
     height: 250px;
-    margin-top: -70px;
+    margin: -50px auto 0 0;
 }
 
 .nav-2 {
@@ -82,9 +85,9 @@ button:hover {
 
                                                 /* <!-- section 2  --> */
 .container-2 {
+    border: 1px black solid;
     display: flex;
     flex-direction: column;
-    /* margin-bottom: -150px; */
 }
 
 .picks {
